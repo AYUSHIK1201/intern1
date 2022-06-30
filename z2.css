@@ -99,6 +99,29 @@ margin: 50px 10px 10px 90px;
    text-align: center;
 
 }
+
+.carousel {
+    position: relative;
+    margin: 60px 0px 0px 0px;
+    height: 0px;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
+    background-color: rgba(0,0,0,0);
+    filter: alpha(opacity=50);
+    background-color: none;
+    }
+
+
 .col-sm-6
 {    display: inline-flex;
   
